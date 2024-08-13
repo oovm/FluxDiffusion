@@ -1,6 +1,5 @@
 [package]
-name = "sub_projects"
-publish = false
+name = "flux-edit"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
 description = "..."
@@ -14,6 +13,7 @@ edition = "2021"
 exclude = ["package.json", "tests/**"]
 
 [dependencies]
+safetensors = { version = "0.4.4", features = [] }
 
 [dev-dependencies]
 
